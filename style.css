@@ -135,6 +135,40 @@ ul{
     font-size: 30px;
     letter-spacing: 5px;
     position: relative;
+    animation: color 6s infinite;
+}
+@keyframes color {
+    10%{
+        color: red;
+    }
+    20%{
+        color: darkmagenta;
+    }
+    30%{
+        color: green;
+    }
+    40%{
+        color: aqua;
+    }
+    50%{
+        color: hotpink;
+    }
+    60%{
+        color: navy;
+    }
+    70%{
+        color: tomato;
+    }
+    80%{
+        color: khaki;
+    }
+    90%{
+        color: lawngreen;
+    }
+    100%{
+        color: crimson;
+    }
+    
 }
 .aside .logo a span{
     font-family: 'Clicker script', cursive;
@@ -239,7 +273,43 @@ h3.hello span{
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
+    animation: h3color
+    6s infinite;
 }
+@keyframes h3color {
+    10%{
+        color: red;
+    }
+    20%{
+        color: darkmagenta;
+    }
+    30%{
+        color: green;
+    }
+    40%{
+        color: aqua;
+    }
+    50%{
+        color: hotpink;
+    }
+    60%{
+        color: navy;
+    }
+    70%{
+        color: tomato;
+    }
+    80%{
+        color: khaki;
+    }
+    90%{
+        color: lawngreen;
+    }
+    100%{
+        color: crimson;
+    }
+    
+}
+
 h3.my-profession{
     font-size: 30px;
     margin: 15px 0;
